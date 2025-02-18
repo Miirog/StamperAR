@@ -1,8 +1,8 @@
+// vite.config.js or vite.config.ts
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-  base: '/StamperAR/', // Replace with your repo name!
-  build: {
-    outDir: 'dist', // Or whatever your output directory is
-  },
+export default defineConfig(({ mode }) => {
+  return {
+    base: mode === 'production' ? '/StamperAR/' : '/',
+  };
 });
