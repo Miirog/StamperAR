@@ -44,10 +44,11 @@ function loadModel(modelPath) {
       const model = gltf.scene;
       currentModel = model;
 
-      model.scale.set(0.5, 0.5, 0.5);
-
       const box = new THREE.Box3().setFromObject(model);
       const center = box.getCenter(new THREE.Vector3());
+
+      model.scale.set(0.5, 0.5, 0.5);
+
       model.position.x = -center.x;
       model.position.y = -center.y;
       model.position.z = -center.z;
