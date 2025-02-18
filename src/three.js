@@ -1,6 +1,6 @@
 import * as THREE from "../node_modules/three/build/three.module.js";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 const nextButton = document.getElementById("nextObject");
 const previousButton = document.getElementById("previousObject");
