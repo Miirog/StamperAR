@@ -46,8 +46,8 @@ function loadModel(modelPath) {
 
       const box = new THREE.Box3().setFromObject(model);
       const center = box.getCenter(new THREE.Vector3());
-
-      model.scale.set(0.5, 0.5, 0.5);
+      const initialCenter = box.getCenter(new THREE.Vector3());
+      model.userData.initialCenter = initialCenter; // Store the initial center
 
       model.position.x = -center.x;
       model.position.y = -center.y;
