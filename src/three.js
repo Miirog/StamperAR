@@ -30,7 +30,7 @@ scene.add(directionalLight2);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = false;
-controls.rotateSpeed = 3;
+controls.rotateSpeed = 3.8;
 controls.dampingFactor = 0.05;
 
 const loader = new GLTFLoader();
