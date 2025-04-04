@@ -93,12 +93,12 @@ window.addEventListener("resize", () => {
 
 let currentModel;
 const modelPaths = [
-  "./models/bocolla/bocolla.gltf",
-  "./models/clip01/clip_seta01.gltf",
-  "./models/clip02/clip_seta02.gltf",
-  "./models/porca_rapida14/porca_rapida-modelo14.gltf",
-  "./models/porca_rapida27/porca_rapida-modelo27.gltf",
-  "./models/presilha_de_fogao/presilha_de_fogao.gltf",
+  "./public/models/bocolla/bocolla.gltf",
+  "./public/models/clip01/clip_seta01.gltf",
+  "./public/models/clip02/clip_seta02.gltf",
+  "./public/models/porca_rapida14/porca_rapida-modelo14.gltf",
+  "./public/models/porca_rapida27/porca_rapida-modelo27.gltf",
+  "./public/models/presilha_de_fogao/presilha_de_fogao.gltf",
 ];
 let currentModelIndex = 0;
 
