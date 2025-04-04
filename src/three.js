@@ -93,12 +93,12 @@ window.addEventListener("resize", () => {
 
 let currentModel;
 const modelPaths = [
-  "./public/models/bocolla/bocolla.gltf",
-  "./public/models/clip01/clip_seta01.gltf",
-  "./public/models/clip02/clip_seta02.gltf",
-  "./public/models/porca_rapida14/porca_rapida-modelo14.gltf",
-  "./public/models/porca_rapida27/porca_rapida-modelo27.gltf",
-  "./public/models/presilha_de_fogao/presilha_de_fogao.gltf",
+  "./models/bocolla/bocolla.gltf",
+  "./models/clip01/clip_seta01.gltf",
+  "./models/clip02/clip_seta02.gltf",
+  "./models/porca_rapida14/porca_rapida-modelo14.gltf",
+  "./models/porca_rapida27/porca_rapida-modelo27.gltf",
+  "./models/presilha_de_fogao/presilha_de_fogao.gltf",
 ];
 let currentModelIndex = 0;
 
@@ -106,32 +106,32 @@ const bottomBoxTexts = [
   {
     title: "Bócolla Oblonga A",
     description1: "Amplo catálogo;",
-    description2: "Diversidade de formatos e propriedades;",
+    description2: "Diversidade de formatos e propriedades.",
   },
   {
     title: "Clip",
     description1: "Versatilidade;",
-    description2: "Durabilidade & Segurança;",
+    description2: "Durabilidade & Segurança.",
   },
   {
     title: "Clip",
     description1: "Versatilidade;",
-    description2: "Durabilidade & Segurança;",
+    description2: "Durabilidade & Segurança.",
   },
   {
     title: "Porca Rápida - 14",
     description1: "Praticidade;",
-    description2: "Fácil Instalação;",
+    description2: "Fácil Instalação.",
   },
   {
     title: "Porca Rápida - 27",
     description1: "Praticidade;",
-    description2: "Fácil Instalação;",
+    description2: "Fácil Instalação.",
   },
   {
     title: "Presilha de Fogão",
     description1: "Essencial no dia-a-dia;",
-    description2: "Presente na sua cozinha;",
+    description2: "Presente na sua cozinha.",
   },
 ];
 
