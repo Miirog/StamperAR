@@ -98,7 +98,8 @@ const modelPaths = [
   "./public/models/clip02/clip_seta02.gltf",
   "./public/models/porca_rapida14/porca_rapida-modelo14.gltf",
   "./public/models/porca_rapida27/porca_rapida-modelo27.gltf",
-  "./public/models/presilha_de_fogao/presilha_de_fogao.gltf",
+  "./public/models/grampo/Grampo.gltf",
+  "./public/models/disco/Disco.gltf",
 ];
 let currentModelIndex = 0;
 
@@ -129,9 +130,14 @@ const bottomBoxTexts = [
     description2: "Fácil Instalação.",
   },
   {
-    title: "Presilha de Fogão",
-    description1: "Essencial no dia-a-dia;",
-    description2: "Presente na sua cozinha.",
+    title: "Disco de Fixação:",
+    description1: "Versatilidade;",
+    description2: "Durabilidade & Segurança.",
+  },
+  {
+    title: "Grampo:",
+    description1: "Versatilidade;",
+    description2: "Durabilidade & Segurança.",
   },
 ];
 
