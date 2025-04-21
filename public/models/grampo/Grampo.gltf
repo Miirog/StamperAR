@@ -1,145 +1,170 @@
 {
-  "asset": {
-    "generator": "Khronos glTF Blender I/O v4.4.56",
-    "version": "2.0"
-  },
-  "scene": 0,
-  "scenes": [
-    {
-      "name": "Scene",
-      "nodes": [0]
-    }
-  ],
-  "nodes": [
-    {
-      "mesh": 0,
-      "name": "Grampo",
-      "rotation": [0.7071068286895752, 0, 0, 0.7071068286895752],
-      "scale": [0.0860000029206276, 0.0860000029206276, 0.0860000029206276]
-    }
-  ],
-  "materials": [
-    {
-      "doubleSided": true,
-      "name": "01.849.065.70",
-      "normalTexture": {
-        "index": 0
-      },
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 1
-        },
-        "metallicRoughnessTexture": {
-          "index": 2
-        }
-      }
-    }
-  ],
-  "meshes": [
-    {
-      "name": "Espelhar2.001",
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 3,
-          "material": 0
-        }
-      ]
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
-    }
-  ],
-  "images": [
-    {
-      "mimeType": "image/png",
-      "name": "Part_Normal",
-      "uri": "textures/Part_Normal.png"
-    },
-    {
-      "mimeType": "image/png",
-      "name": "Part_BaseColor",
-      "uri": "textures/Part_BaseColor.png"
-    },
-    {
-      "mimeType": "image/png",
-      "name": "Part_Metallic-Part_Roughness",
-      "uri": "textures/Part_Metallic-Part_Roughness.png"
-    }
-  ],
-  "accessors": [
-    {
-      "bufferView": 0,
-      "componentType": 5126,
-      "count": 1766,
-      "max": [9.090456008911133, 8.495564460754395, 6.247371196746826],
-      "min": [-9.090456008911133, -8.100000381469727, -6.247371196746826],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 1,
-      "componentType": 5126,
-      "count": 1766,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "componentType": 5126,
-      "count": 1766,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5123,
-      "count": 4440,
-      "type": "SCALAR"
-    }
-  ],
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteLength": 21192,
-      "byteOffset": 0,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 21192,
-      "byteOffset": 21192,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 14128,
-      "byteOffset": 42384,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8880,
-      "byteOffset": 56512,
-      "target": 34963
-    }
-  ],
-  "buffers": [
-    {
-      "byteLength": 65392,
-      "uri": "Grampo.bin"
-    }
-  ]
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.4.56",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"mesh":0,
+			"name":"Grampo",
+			"rotation":[
+				0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
+			],
+			"scale":[
+				0.0860000029206276,
+				0.0860000029206276,
+				0.06178632378578186
+			]
+		}
+	],
+	"materials":[
+		{
+			"doubleSided":true,
+			"name":"01.849.065.70",
+			"normalTexture":{
+				"index":0
+			},
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":1
+				},
+				"metallicRoughnessTexture":{
+					"index":2
+				}
+			}
+		}
+	],
+	"meshes":[
+		{
+			"name":"Espelhar2.001",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1,
+						"TEXCOORD_0":2
+					},
+					"indices":3,
+					"material":0
+				}
+			]
+		}
+	],
+	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		},
+		{
+			"sampler":0,
+			"source":1
+		},
+		{
+			"sampler":0,
+			"source":2
+		}
+	],
+	"images":[
+		{
+			"mimeType":"image/png",
+			"name":"Part_Normal",
+			"uri":"Part_Normal.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"Part_BaseColor",
+			"uri":"Part_BaseColor.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"Part_Metallic-Part_Roughness",
+			"uri":"Part_Metallic-Part_Roughness.png"
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":1766,
+			"max":[
+				9.090456008911133,
+				8.495564460754395,
+				6.247371196746826
+			],
+			"min":[
+				-9.090456008911133,
+				-8.100000381469727,
+				-6.247371196746826
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":1766,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5126,
+			"count":1766,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":3,
+			"componentType":5123,
+			"count":4440,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":21192,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":21192,
+			"byteOffset":21192,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":14128,
+			"byteOffset":42384,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":8880,
+			"byteOffset":56512,
+			"target":34963
+		}
+	],
+	"samplers":[
+		{
+			"magFilter":9729,
+			"minFilter":9987
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":65392,
+			"uri":"Grampo.bin"
+		}
+	]
 }
