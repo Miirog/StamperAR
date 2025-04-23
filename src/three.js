@@ -130,12 +130,12 @@ const bottomBoxTexts = [
     description2: "Fácil Instalação.",
   },
   {
-    title: "Disco de Fixação:",
+    title: "Grampo",
     description1: "Versatilidade;",
     description2: "Durabilidade & Segurança.",
   },
   {
-    title: "Grampo:",
+    title: "Disco de Fixação",
     description1: "Versatilidade;",
     description2: "Durabilidade & Segurança.",
   },
